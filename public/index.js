@@ -1,4 +1,3 @@
-
 let startTime = performance.now();
 
 window.addEventListener('load', function() {
