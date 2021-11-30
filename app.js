@@ -5,10 +5,10 @@ var multer = require('multer');
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "sql6.freesqldatabase.com",
-  user: "sql6450233",
-  password: "uPXhdJH1q1",
-  database: "sql6450233"
+  host: "localhost",
+  user: "id18037115_amro_db",
+  password: "3zcdg<qgLJOBfnkP",
+  database: "id18037115_amro"
 });
 
 
@@ -56,10 +56,10 @@ require('dns').lookup(require('os').hostname(), function (err, ip, fam) {
 
   var pool  = mysql.createPool({
     connectionLimit : 10,
-    host: "sql6.freesqldatabase.com",
-  user: "sql6450233",
-  password: "uPXhdJH1q1",
-  database: "sql6450233"
+     host: "localhost",
+  user: "id18037115_amro_db",
+  password: "3zcdg<qgLJOBfnkP",
+  database: "id18037115_amro"
   });
 
   pool.getConnection(function(err,con) {
